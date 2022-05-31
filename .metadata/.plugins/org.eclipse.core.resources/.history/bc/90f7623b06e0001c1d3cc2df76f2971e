@@ -1,0 +1,13 @@
+package com.kotae;
+
+import java.util.Scanner;
+
+public class MemberService implements Action {
+
+	@Override
+	public void excute(Scanner sc) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

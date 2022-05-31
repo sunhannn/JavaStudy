@@ -1,0 +1,25 @@
+package Study;
+
+public class Operator001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		/*
+		 *   "*" : 곱하기 역할도 하지만, 모든 문자를 나타내는 만능문자 이기도 함
+		 *   / : 몫을 구한다.
+		 *   % : 나머지를 구한다.
+		 *   
+		 * 
+		 */
+		int i = 7, j = 5;
+		
+		//+, -, *, / ,
+		System.out.println(I + " + " + j + "=" +(i+j));
+		
+	}
+
+}

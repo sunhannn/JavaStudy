@@ -1,0 +1,37 @@
+package Study;
+
+public class Test002 {
+
+	public static void main(String[] args) {
+		
+
+		int x =10;
+		int y = ++x;
+		
+		int i = 5;
+		i++;// i = i+1 동일한 의미이다. sum=sum+1 (후위형)
+		
+		System.out.println(i);// i=6
+		
+		i = 5;
+		System.out.println(i);
+		++i;//(전위형)
+		
+		System.out.println(i);
+		/*
+		 *   "*" : 곱하기 역할도 하지만, 모든 문자를 나타내는 만능문자 이기도 함
+		 *   / : 몫을 구한다.
+		 *   % : 나머지를 구한다.
+		 *   
+		 * 
+		 */
+		int i = 7, j = 5;
+		
+		//+, -, *, / ,
+		System.out.println(I + " + " + j + "=" +(i+j));
+		
+		
+		
+	}
+
+}

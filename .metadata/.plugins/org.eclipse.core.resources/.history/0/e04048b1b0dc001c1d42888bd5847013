@@ -1,0 +1,99 @@
+package com.Ex;
+import java.util.*;
+public class SungImpl extends Record implements Sung {
+		int in;
+		Record re[];
+		
+	
+	
+	
+	
+	@Override
+	public void set() {	//인원 수 입력 받는 기능
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+			do {
+				System.out.println("인원수 입력 : ");
+				in = sc.nextInt();
+				
+				
+				
+			}while(in < 1 || in > 100);
+			re = new Record[in];
+			
+			re = new Record[in];
+		
+		
+	}
+
+	@Override
+	public void input() {	// 학번, 이름, 과목별 점수 입력 기능, 판정
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String[]title = {"국어 점수", "영어 점수", "수학 점수"};
+		
+		for (int i = 0; i < re.length; i++) {
+			
+			re[i] = new Record();
+			System.out.printf("%d번째 학생의 학번 이름을 입력(공백 구분) : ",(i+1));
+			re[i].number = sc.nextInt();
+			re[i].name = sc.next();
+			
+			System.out.printf("국어 영어 수학 점수 입력(공백 구분) : " ,(i+1));
+			re[i].sco[0] = sc.nextInt() ;//	국어 점수
+					re[i].sco[1] = sc.nextInt(); //	영어 점수
+					re[i].sco[2] = sc.nextInt() ;//	수학 점수
+					
+			for (int j = 0; j<title.length;j++) {
+				System.out.println(title[j]);
+				
+				re[i].sco[j] = sc.nextInt();
+				
+				re[i].sum += re[i].sco[j];
+				
+			}
+			
+			
+			re[i].avg = re[i].sum / 3.0;
+			
+			
+			
+			
+				
+			
+			
+		}
+		
+		
+		
+	}	
+	
+
+	@Override
+	public void print() {	//결과 출력
+		// TODO Auto-generated method stub
+		System.out.println("======성적표=======");
+		for(int i = 0; i <in;i++) {
+			
+			System.out.printf("%8s",re[i].name);
+			for(int j = 0; j < 3; j++) {
+				System.out.printf("%5d",re[i].scor[i]);
+				
+			}
+			System.out.printf("%7d, %10.2f\n",re[i].sum,re[i].avg);
+			System.out.println();
+			
+		}
+			
+			
+			
+		}
+		
+		
+	}
+		
+	
+			
+
+	
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.Abs&apos; to &apos;com.ex&apos;&#x0A;- Original project: &apos;Day0525&apos;&#x0A;- Original element: &apos;Day0525/src/com.Abs&apos;&#x0A;- Renamed element: &apos;Day0525/src/com.ex&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.Abs&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.Abs" name="com.ex" qualified="false" references="true" stamp="1653446091151" textual="false" version="1.0"/>
+</session>

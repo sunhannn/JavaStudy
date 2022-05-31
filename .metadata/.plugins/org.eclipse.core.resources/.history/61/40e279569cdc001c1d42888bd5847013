@@ -1,0 +1,43 @@
+package com.Ex;
+import java.util.*;
+public class Sunglmpl implements Sung {
+		int in;
+		Record re[];
+		
+	
+	
+	
+	
+	@Override
+	public void set() {	//인원 수 입력 받는 기능
+		// TODO Auto-generated method stub
+			do {
+				System.out.println("인원수 입력 : ");
+				
+				
+				
+				
+			}
+		
+		
+		
+	}
+
+	@Override
+	public void input() {	// 학번, 이름, 과목별 점수 입력 기능, 판정
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void print() {	//결과 출력
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

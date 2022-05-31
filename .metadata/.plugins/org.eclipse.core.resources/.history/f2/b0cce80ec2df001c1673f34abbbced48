@@ -1,0 +1,23 @@
+package com.study;
+
+public class Method_Test {
+
+		public static void showHi() {
+			System.out.println("Hi ~ 미나상");
+			
+			
+		}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		showHi();
+		
+		
+		
+		
+	}
+	
+
+}

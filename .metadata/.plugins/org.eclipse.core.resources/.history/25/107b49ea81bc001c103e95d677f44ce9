@@ -1,0 +1,30 @@
+package Study;
+
+import java.util.Scanner;
+
+public class TestWW {
+	//세과목 국어, 영어, 수학
+	// 문제) 위의 세과목의 점수를 입력받아 총점과 평균을 출력
+	//평균은 소수 2자리까지(입력 스캐너)
+	
+
+
+	public static void main(String[] args) {
+	
+		int l = 70;
+		int e = 80;
+		int m = 90;
+			
+		Scanner sc = new scanner(System.in);
+		
+		System.out.printf((l+e+m));
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

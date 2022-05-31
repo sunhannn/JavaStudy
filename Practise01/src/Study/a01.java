@@ -1,0 +1,22 @@
+package Study;
+import java.util.*;
+
+public class a01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		String o;
+		int a ,b, c;
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
