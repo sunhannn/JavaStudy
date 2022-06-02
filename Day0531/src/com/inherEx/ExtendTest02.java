@@ -26,7 +26,6 @@ package com.inherEx;
 public class ExtendTest02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Subsub ss = new Subsub();
 		System.out.println(ss.x);
 		System.out.println(ss.z);
