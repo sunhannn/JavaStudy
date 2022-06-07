@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.inner.MemberInner.Inner"/>
-    <fullyQualifiedTypeName name="com.Gaxtuki.Gaxtuki"/>
-    <fullyQualifiedTypeName name="com.inter.Mouse"/>
-    <fullyQualifiedTypeName name="com.inter.RFMous"/>
     <fullyQualifiedTypeName name="com.inner.StaticInner.Inner"/>
     <fullyQualifiedTypeName name="com.inner.OuterEx01.InnerEx01"/>
     <fullyQualifiedTypeName name="com.inner.OuterEx01"/>
@@ -48,7 +44,6 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="com.test.Sprite"/>
+    <fullyQualifiedTypeName name="com.test.main"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.test.main.Monster"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>
