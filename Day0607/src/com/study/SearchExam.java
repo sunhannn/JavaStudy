@@ -20,7 +20,27 @@ public class SearchExam {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
+		String str;
 		
+		//입력 받은 문자열로 시작하는 문자열 검색
+		try {
+		System.out.println("검색할 단어 : ");
+		str = br.readLine();
+		
+		
+		ListIterator<String> it = lists.listIterator();
+		
+		while(it.hasNext()) {
+			String temp = it.next();
+			
+			if(temp.startsWith(str)) {
+				System.out.println(temp);
+			}
+		}
+		
+		}catch(IOException io) {
+			io.printStackTrace();
+		}
 		
 		
 	}

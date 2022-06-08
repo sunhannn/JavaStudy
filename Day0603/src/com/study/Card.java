@@ -39,18 +39,18 @@ public class Card {
 			cardNum = num[i] % 13 + 1;
 			
 			if ( cardNum == 1) {
-				System.out.println("카드 숫자는 : "+num[i]+" , "+"A");
+				System.out.print("카드 숫자는 : "+num[i]+" , "+"A");
 				
 			
 			}else if (cardNum == 11) {
-				System.out.println("카드 숫자는 : "+num[i]+" , "+"J");
+				System.out.print("카드 숫자는 : "+num[i]+" , "+"J");
 			}else if (cardNum == 12) {
-				System.out.println("카드 숫자는 : "+num[i]+" , "+"Q");
+				System.out.print("카드 숫자는 : "+num[i]+" , "+"Q");
 			}else if (cardNum == 13) {
-				System.out.println("카드 숫자는 : "+num[i]+" , "+"K");
+				System.out.print("카드 숫자는 : "+num[i]+" , "+"K");
 			}else {
 				
-				System.out.println("카드 숫자는 : "+num[i]+" , "+cardNum);
+				System.out.print("카드 숫자는 : "+num[i]+" , "+cardNum);
 			}
 			cardSen = num[i] / 13;
 			
