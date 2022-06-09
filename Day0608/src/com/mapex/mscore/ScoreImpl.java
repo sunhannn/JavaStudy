@@ -37,7 +37,7 @@ public class ScoreImpl implements Score {
 	
 	@Override
 	public int insert() throws IOException {
-		// TODO Auto-generated method stub
+		
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		

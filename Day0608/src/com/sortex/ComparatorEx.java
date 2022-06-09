@@ -24,7 +24,7 @@ public class ComparatorEx {
 
 	
 	
-	 class Myucompara my comparator;
+	 
 	public void main(String[] args) {
 		
 		String [] strArr = {"cat", "dog", "lion", "tiger"};
