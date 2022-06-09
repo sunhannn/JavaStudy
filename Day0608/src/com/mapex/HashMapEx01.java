@@ -30,7 +30,8 @@ public static void main(String[] args) {
 			
 		}
 		
-		map.put("영화", "달마야 놀자");
+		map.put("영화", "달마야 놀자"); // 키 값은 변경은 안되고 값만 새롭게 추가된다.
+		// 키 값은 중복 되지 않는다.
 		System.out.println(map);
 }
 }
