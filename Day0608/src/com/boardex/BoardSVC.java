@@ -3,11 +3,12 @@ import java.util.*;
 public class BoardSVC {
 		
 	
-	ArrayList<BoardVO>boardList;
+	//ArrayList<BoardVO>boardList;
 	
+		ArrayList<HashMap<String, String>> boardList;
 	public BoardSVC() {
 		
-		boardList = new ArrayList<BoardVO>();
+		boardList = new ArrayList<HashMap<String, String>>();
 		
 	}
 	
@@ -26,28 +27,40 @@ public class BoardSVC {
 			System.out.println("글내용 : ");
 			String content = sc.next();
 			
-			BoardVO vo = new BoardVO(register, subject, email, content, passwd);
+//			BoardVO vo = new BoardVO(register, subject, email, content, passwd);
 			// Arraylist에 추가
-			boardList.add(vo);
+//			boardList.add(vo);
+			
+			HashMap<String, String> boardMap = new HashMap<String, String>();
+			boardMap.put("register", register);
+			boardMap.put("subject", subject);
+			boardMap.put("email", email);
+			boardMap.put("content", content);
+			boardMap.put("passwd", passwd);
+			addArticle(boardMap);
 		}
 	
 	
 	// 글을 리스트에 추가
-		private void addArticle(BoardVO vo) {
-			boardList.add(vo);
+		private void addArticle(HashMap<String, String> boardMap) {
+			boardList.add(boardMap);
 		}
 	// 목록보기
 		public void listAticle(Scanner sc) {
 			
 			if(boardList.size() > 0) {
+				/*
 				for (int i = 0 ; i < boardList.size(); i++) {
 					System.out.println(boardList.get(i));
+					}*/
+					for (int i = 0; i < boardList.size();i++) {
+						System.out.println("작성자 : "+boardList.get(i).get("register")+", subject : "+boardList.get(i).get("subject")
+								+" , email : "+boardList.get(i).get("email")+", content : "+boardList.get(i).get("content"));
+					}
 					
 					
 					
-					
-					
-				}
+				
 				}else {
 					System.out.println("등록된 게시글이 없습니다.");
 				
@@ -79,8 +92,8 @@ public class BoardSVC {
 			if(boardList.size() > 0) {
 				int index = -1;
 				for (int i =0; i < boardList.size(); i++) {
-					if (boardList.get(i).getRegister().equals(register)){
-						if(boardList.get(i).getPasswd().equals(passwd)) {
+					if (boardList.get(i).get("register").equals(register)){
+						if(boardList.get(i).get("passwd") .equals(passwd)) {
 							boardList.remove(boardList.get(i));
 							index = i;
 							System.out.println("삭제 완료");
