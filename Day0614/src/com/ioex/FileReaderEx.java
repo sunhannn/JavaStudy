@@ -13,7 +13,7 @@ public class FileReaderEx {
 			int readValue = 0;
 			
 			while((readValue =fr.read()) != -1) {
-				System.out.println(readValue);
+				System.out.print((char)readValue);
 			}
 			
 			
