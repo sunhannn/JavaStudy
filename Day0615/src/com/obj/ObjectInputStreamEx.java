@@ -8,7 +8,7 @@ public class ObjectInputStreamEx {
 
 	public static void main(String[] args) {
 		ObjectInputStream ois = null;
-		// TODO Auto-generated method stub
+		
 		try {
 			// 파일에 저장된 객체를 읽어 오기 위해 ObjectInputStream객체를 생성
 				// 기록할 수 있는 ObjectInputStream 객체를 생성
